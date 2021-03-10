@@ -1,3 +1,7 @@
+# Read https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-beautiful-soup-and-python-3 for more notes
+# Read https://stackoverflow.com/questions/60880967/how-to-webscrape-a-site-containing-a-popup-window-using-python for more notes
+# Usman, I need the code to be able to give me the price, number of transfers, number of holders
+
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup as soup
 import pandas as pd
